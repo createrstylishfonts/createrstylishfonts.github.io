@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- CreatorStudio Pro SEO -->
+  <meta name="description" content="CreatorStudio Pro is your free online toolkit for stylish fonts, fancy text generator, Instagram bio ideas, stylish captions, hashtags generator and Jai Shree Shyam text designs.">
+  <meta name="keywords" content="CreatorStudio Pro, stylish fonts, fancy text generator, Instagram fonts, Instagram bio, stylish bio, Instagram captions, hashtags generator, Shyam Ji designs">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://kushwahaatul12q-dot.github.io/stylis-fonts-/">
+  
+  <meta property="og:title" content="CreatorStudio Pro - Stylish Fonts & Instagram Tools">
+  <meta property="og:description" content="Free Stylish Fonts, Instagram Bio, Captions, Hashtags and Shyam Ji Designs.">
+  <meta property="og:url" content="https://kushwahaatul12q-dot.github.io/stylis-fonts-/">
+  <meta property="og:type" content="website">
+  <meta name="author" content="CreatorStudio Pro">
+  <meta name="monetag" content="f17f03adc069bffa5e494a08d0a2e8ef">
+  <title>CreatorStudio Pro - Stylish Fonts, Instagram Bio, Captions & Hashtags</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      background-color: #070b12;
+      color: #f1f5f9;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 5px;
+      height: 5px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #334155;
+      border-radius: 4px;
+    }
+    .ad-placeholder {
+      background: rgba(30, 41, 59, 0.45);
+      border: 1px dashed #475569;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+
+  <!-- Header -->
+  <header class="border-b border-slate-800 bg-slate-900/90 backdrop-blur sticky top-0 z-40">
+    <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-pink-500 via-purple-600 to-indigo-600 flex items-center justify-center font-bold text-white text-lg shadow-lg">
+          <i class="fa-solid fa-crown text-amber-300"></i>
+        </div>
+        <div>
+          <span class="font-extrabold text-lg tracking-tight bg-gradient-to-r from-pink-400 to-indigo-400 bg-clip-text text-transparent">
+            CreatorStudio Pro
+          </span>
+          <p class="text-[10px] text-slate-400">Fonts • 2000+ Bhaukaal Bio • Shyam Designs • 15+ Hashtags</p>
+        </div>
+      </div>
+      <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-slate-800 text-pink-400 border border-slate-700">
+        v4.0 Ultimate
+      </span>
+    </div>
+  </header>
+
+  <!-- Top Ad Slot -->
+  <div class="max-w-4xl mx-auto w-full px-4 pt-3">
+    <div class="ad-placeholder rounded-xl p-2.5 text-center text-xs text-slate-500">
+      <span><!-- Google AdSense / Monetag 728x90 Header Banner --></span>
+      <p class="font-mono"><i class="fa-solid fa-rectangle-ad mr-1"></i> Top Banner Ad Placement (728x90)</p>
+    </div>
+  </div>
+
+  <!-- Main Tools Navigation (5 Full Tabs) -->
+  <main class="max-w-4xl mx-auto w-full px-4 py-4 flex-1">
+    
+    <div class="grid grid-cols-5 gap-1 p-1 bg-slate-900 border border-slate-800 rounded-2xl mb-4 text-[11px] font-bold">
+      <button onclick="switchTab('fonts')" id="tab-btn-fonts" class="py-2.5 rounded-xl flex flex-col items-center justify-center gap-1 transition bg-gradient-to-r from-pink-600 to-rose-600 text-white shadow-md">
+        <i class="fa-solid fa-font text-sm"></i>
+        <span class="truncate">Fonts</span>
+      </button>
+      <button onclick="switchTab('bio')" id="tab-btn-bio" class="py-2.5 rounded-xl flex flex-col items-center justify-center gap-1 transition text-slate-400 hover:text-white">
+        <i class="fa-solid fa-crown text-amber-400 text-sm"></i>
+        <span class="truncate">भौकाल Bio</span>
+      </button>
+      <button onclick="switchTab('captions')" id="tab-btn-captions" class="py-2.5 rounded-xl flex flex-col items-center justify-center gap-1 transition text-slate-400 hover:text-white">
+        <i class="fa-solid fa-quote-left text-indigo-400 text-sm"></i>
+        <span class="truncate">Captions</span>
+      </button>
+      <button onclick="switchTab('hashtags')" id="tab-btn-hashtags" class="py-2.5 rounded-xl flex flex-col items-center justify-center gap-1 transition text-slate-400 hover:text-white">
+        <i class="fa-solid fa-hashtag text-teal-400 text-sm"></i>
+        <span class="truncate">Hashtags</span>
+      </button>
+      <button onclick="switchTab('shyam')" id="tab-btn-shyam" class="py-2.5 rounded-xl flex flex-col items-center justify-center gap-1 transition text-slate-400 hover:text-white">
+        <i class="fa-solid fa-om text-orange-400 text-sm"></i>
+        <span class="truncate">Shyam Ji</span>
+      </button>
+    </div>
+
+    <!-- TOOL 1: 500+ FANCY FONTS -->
+    <section id="section-fonts" class="space-y-3">
+      <div class="bg-slate-900 border border-slate-800 p-3.5 rounded-2xl">
+        <label class="block text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1.5">अपना नाम या टेक्स्ट लिखें:</label>
+        <div class="relative">
+          <input type="text" id="font-input" placeholder="Type name here (e.g., King, Mafia, Queen)..." value="Royal King" oninput="generateFonts()"
+            class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-base font-semibold text-white focus:outline-none focus:border-pink-500 transition pr-10">
+          <button onclick="document.getElementById('font-input').value=''; generateFonts();" class="absolute right-3 top-3 text-slate-500 hover:text-white">
+            <i class="fa-solid fa-circle-xmark"></i>
+          </button>
+        </div>
+      </div>
+      <div id="fonts-grid" class="space-y-2"></div>
+      <div class="text-center pt-2">
+        <button onclick="loadMoreFonts()" id="btn-load-more" class="px-5 py-2 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-bold text-slate-200 rounded-xl">
+          More Fonts देखें <i class="fa-solid fa-angle-down ml-1"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- TOOL 2: 2000+ BHAUKAAL & VIP BIOS -->
+    <section id="section-bio" class="space-y-3 hidden">
+      <div class="flex items-center gap-2 overflow-x-auto pb-1 custom-scrollbar text-xs">
+        <button onclick="filterBio('bhaukaal_hindi')" class="bio-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-pink-600 text-white font-semibold">🚩 भौकाल हिंदी (1000)</button>
+        <button onclick="filterBio('bhaukaal_hinglish')" class="bio-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-slate-800 text-slate-300 font-semibold">⚡ Bhaukaal English (1000)</button>
+        <button onclick="filterBio('vip_multi')" class="bio-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-slate-800 text-slate-300 font-semibold">👑 VIP Multi-line Borders</button>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+        <input type="text" id="bio-search" placeholder="Search bio (उदा. बादशाह, खामोशी, शेर, royal, waqt)..." oninput="renderBios()" class="w-full bg-slate-900 border border-slate-800 rounded-xl px-3.5 py-2 text-xs text-white focus:outline-none focus:border-pink-500">
+        <div class="flex gap-2">
+          <input type="text" id="bio-custom-name" placeholder="अपना नाम (जैसे: Mr. Rohit)" class="flex-1 bg-slate-900 border border-slate-800 rounded-xl px-3 py-2 text-xs text-white">
+          <button onclick="renderBios()" class="px-3.5 py-2 bg-indigo-600 hover:bg-indigo-500 rounded-xl text-xs font-bold text-white shrink-0">Apply</button>
+        </div>
+      </div>
+
+      <div id="bios-container" class="space-y-3"></div>
+      
+      <div class="text-center pt-2">
+        <button onclick="loadMoreBios()" class="px-5 py-2 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-bold text-slate-200 rounded-xl">
+          More 2000+ Bios लोड करें <i class="fa-solid fa-angle-down ml-1"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- TOOL 3: 1000+ STYLISH CAPTIONS -->
+    <section id="section-captions" class="space-y-3 hidden">
+      <div class="flex items-center gap-2 overflow-x-auto pb-1 custom-scrollbar text-xs">
+        <button onclick="filterCaptions('all')" class="cap-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-indigo-600 text-white font-semibold">सभी Captions</button>
+        <button onclick="filterCaptions('killer_attitude')" class="cap-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-slate-800 text-slate-300 font-semibold">🔥 Killer Attitude</button>
+        <button onclick="filterCaptions('reels_viral')" class="cap-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-slate-800 text-slate-300 font-semibold">🚀 Reels Hook</button>
+        <button onclick="filterCaptions('gym_hustle')" class="cap-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-slate-800 text-slate-300 font-semibold">💪 Gym & Hustle</button>
+        <button onclick="filterCaptions('love_romantic')" class="cap-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-slate-800 text-slate-300 font-semibold">❤️ Romantic Lines</button>
+        <button onclick="filterCaptions('savage')" class="cap-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-slate-800 text-slate-300 font-semibold">⚡ Savage 1-Liners</button>
+      </div>
+
+      <div class="relative">
+        <input type="text" id="caption-search" placeholder="Search caption (उदा. बाद्शाह, silent, royal, love)..." oninput="renderCaptions()"
+          class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-2 text-xs text-white focus:outline-none focus:border-indigo-500">
+      </div>
+
+      <div id="captions-container" class="space-y-2.5"></div>
+      <div class="text-center pt-2">
+        <button onclick="loadMoreCaptions()" class="px-5 py-2 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-bold text-slate-200 rounded-xl">
+          More Stylish Captions लोड करें <i class="fa-solid fa-angle-down ml-1"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- TOOL 4: ALL 15 CATEGORIES VIRAL HASHTAGS -->
+    <section id="section-hashtags" class="space-y-4 hidden">
+      <div class="bg-slate-900 border border-slate-800 p-4 rounded-2xl space-y-3">
+        <div class="flex items-center justify-between">
+          <h3 class="text-xs font-bold text-slate-200 uppercase tracking-wider flex items-center gap-1.5">
+            <i class="fa-solid fa-fire text-amber-500"></i> Trending Category चुनें (15 श्रेणियां):
+          </h3>
+          <button onclick="copyCurrentHashtags()" class="text-xs bg-indigo-600 hover:bg-indigo-500 text-white font-bold px-3 py-1.5 rounded-lg flex items-center gap-1">
+            <i class="fa-regular fa-copy"></i> सभी 30 Tags Copy करें
+          </button>
+        </div>
+        <select id="hashtag-selector" onchange="renderHashtags()" class="w-full bg-slate-950 border border-slate-700 text-xs rounded-xl p-2.5 text-white">
+          <option value="khatu_shyam">🙏 Khatu Shyam Ji / Jai Shree Shyam (30 Tags)</option>
+          <option value="bhakti">🕉️ General Bhakti / Devotional (30 Tags)</option>
+          <option value="krishna">🦚 Shri Krishna / Radha Krishna (30 Tags)</option>
+          <option value="mahadev">🔱 Mahadev / Shiv Bhakti (30 Tags)</option>
+          <option value="hanuman">🚩 Hanuman Ji / Ram Bhakti (30 Tags)</option>
+          <option value="mata_rani">🌸 Mata Rani / Durga Bhakti (30 Tags)</option>
+          <option value="sad">💔 Sad / Emotional / Broken Heart (30 Tags)</option>
+          <option value="love">❤️ Love / Romantic (30 Tags)</option>
+          <option value="attitude">🦁 Attitude / Royal / Bhaukal (30 Tags)</option>
+          <option value="motivation">🔥 Motivation / Success / Life (30 Tags)</option>
+          <option value="friendship">🤝 Friendship / Dosti (30 Tags)</option>
+          <option value="family">👨‍👩‍👦 Family / Parents (30 Tags)</option>
+          <option value="nature">🌿 Nature / Travel / Peace (30 Tags)</option>
+          <option value="shayari">✍️ Shayari / Poetry / Quotes (30 Tags)</option>
+          <option value="reels">🚀 Instagram Reels / Creator / Viral (30 Tags)</option>
+        </select>
+        <div id="hashtag-box" class="p-3 bg-slate-950 rounded-xl border border-slate-800/80 text-xs text-indigo-300 leading-relaxed font-mono select-all"></div>
+      </div>
+    </section>
+
+    <!-- TOOL 5: 2000+ JAI SHREE SHYAM DESIGNS -->
+    <section id="section-shyam" class="space-y-3 hidden">
+      <div class="flex items-center gap-2 overflow-x-auto pb-1 custom-scrollbar text-xs">
+        <button onclick="filterShyam('all')" class="shyam-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-amber-600 text-white font-semibold">सभी 2000+ डिज़ाइन्स</button>
+        <button onclick="filterShyam('Bold')" class="shyam-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-slate-800 text-slate-300 font-semibold">Bold 𝐉𝐚𝐢 𝐒𝐡𝐫𝐞𝐞 𝐒𝐡𝐲𝐚𝐦</button>
+        <button onclick="filterShyam('Italic')" class="shyam-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-slate-800 text-slate-300 font-semibold">Italic 𝐽𝑎𝑖 𝑆𝑕𝑟𝑒𝑒 𝑆𝑕𝑦𝑎𝑚</button>
+        <button onclick="filterShyam('Bold Italic')" class="shyam-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-slate-800 text-slate-300 font-semibold">Bold Italic 𝑱𝒂𝒊 𝑺𝒉𝒓𝒆𝒆 𝑺𝒉𝒚𝒂𝒎</button>
+        <button onclick="filterShyam('Sans')" class="shyam-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-slate-800 text-slate-300 font-semibold">Sans 𝖩𝖺𝗂 𝖲𝗁𝗋𝖾𝖾 𝖲𝗁𝗒𝖺𝗆</button>
+        <button onclick="filterShyam('Fraktur')" class="shyam-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-slate-800 text-slate-300 font-semibold">Gothic 𝔍𝔞𝔦 𝔖𝔥𝔯𝔢𝔢 𝔖𝔥𝔶𝔞𝔪</button>
+        <button onclick="filterShyam('Script')" class="shyam-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-slate-800 text-slate-300 font-semibold">Cursive 𝓙𝓪𝓲 𝓢𝓱𝓻𝓮𝓮 𝓢𝓱𝔂𝓪𝓶</button>
+        <button onclick="filterShyam('Monospace')" class="shyam-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-slate-800 text-slate-300 font-semibold">Mono 𝙹𝚊𝚒 𝚂𝚑𝚛𝚎𝚎 𝚂𝚑𝚢𝚊𝚖</button>
+      </div>
+
+      <div class="relative">
+        <input type="text" id="shyam-search" placeholder="सिंबल या स्टाइल सर्च करें (उदा. 👑, ࿐, ♛, 🦚, 🚩, 💙, VIP)..." oninput="renderShyamDesigns()"
+          class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-2 text-xs text-white focus:outline-none focus:border-amber-500">
+      </div>
+
+      <div id="shyam-container" class="space-y-2"></div>
+
+      <div class="text-center pt-2">
+        <button onclick="loadMoreShyam()" class="px-5 py-2 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-bold text-slate-200 rounded-xl">
+          More Shyam Designs लोड करें <i class="fa-solid fa-angle-down ml-1"></i>
+        </button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Sticky Bottom Ad Slot -->
+  <div class="max-w-4xl mx-auto w-full px-4 pb-3">
+    <div class="ad-placeholder rounded-xl p-2.5 text-center text-xs text-slate-500">
+      <span><!-- Google AdSense / Monetag 300x250 or Sticky Footer Banner --></span>
+      <p class="font-mono"><i class="fa-solid fa-rectangle-ad mr-1"></i> Bottom Sticky Banner Ad</p>
+    </div>
+  </div>
+
+  <!-- Toast Alert -->
+  <div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 bg-white text-slate-900 font-bold text-xs px-4 py-2 rounded-full shadow-2xl opacity-0 pointer-events-none transition-all duration-300 z-50 flex items-center gap-2">
+    <i class="fa-solid fa-check-circle text-emerald-600 text-sm"></i>
+    <span id="toast-msg">Copied successfully!</span>
+  </div>
+
+  <script>
+    // --- 500+ FONTS ENGINE ---
+    const UNICODE_FONTS = [
+      { name: "Bold Serif", map: { 'a':'𝐚','b':'𝐛','c':'𝐜','d':'𝐝','e':'𝐞','f':'𝐟','g':'𝐠','h':'𝐡','i':'𝐢','j':'𝐣','k':'𝐤','l':'𝐥','m':'𝐦','n':'𝐧','o':'𝐨','p':'𝐩','q':'𝐪','r':'𝐫','s':'𝐬','t':'𝐭','u':'𝐮','v':'𝐯','w':'𝐰','x':'𝐱','y':'𝐲','z':'𝐳','A':'𝐀','B':'𝐁','C':'𝐂','D':'𝐃','E':'𝐄','F':'𝐅','G':'𝐆','H':'𝐇','I':'𝐈','J':'𝐉','K':'𝐊','L':'𝐋','M':'𝐌','N':'𝐍','O':'𝐎','P':'𝐏','Q':'𝐉','R':'𝐑','S':'𝐒','T':'𝐓','U':'𝐔','V':'𝐕','W':'𝐖','X':'𝐗','Y':'𝐘','Z':'𝐙','0':'𝟎','1':'𝟏','2':'𝟐','3':'𝟑','4':'𝟒','5':'𝟓','6':'𝟔','7':'𝟕','8':'𝟖','9':'𝟗' } },
+      { name: "Bold Sans", map: { 'a':'𝗮','b':'𝗯','c':'𝗰','d':'𝗱','e':'𝗲','f':'𝗳','g':'𝗴','h':'𝗵','i':'𝗶','j':'𝗷','k':'𝗸','l':'𝗹','m':'𝗺','n':'𝗻','o':'𝗼','p':'𝗽','q':'𝗾','r':'𝗿','s':'𝘀','t':'𝘁','u':'𝘂','v':'𝘃','w':'𝘄','x':'𝘅','y':'𝘆','z':'𝘇','A':'𝗔','B':'𝗕','C':'𝗖','D':'𝗗','E':'𝗘','F':'𝗙','G':'𝗚','H':'𝗛','I':'𝗜','J':'𝗝','K':'𝗞','L':'𝗟','M':'𝗠','N':'𝗡','O':'𝗢','P':'𝗣','Q':'𝗤','R':'𝗥','S':'𝗦','T':'𝗧','U':'𝗨','V':'𝗩','W':'𝗪','X':'𝗫','Y':'𝗬','Z':'𝗭','0':'𝟬','1':'𝟭','2':'𝟮','3':'𝟯','4':'𝟰','5':'𝟱','6':'𝟲','7':'𝟳','8':'𝟴','9':'𝟵' } },
+      { name: "Gothic Fraktur", map: { 'a':'𝔤','b':'𝔥','c':'𝔦','d':'𝔧','e':'𝔢','f':'𝔣','g':'𝔤','h':'𝔥','i':'𝔦','j':'𝔧','k':'𝔨','l':'𝔩','m':'𝔪','n':'𝔫','o':'𝔬','p':'𝔭','q':'𝔮','r':'𝔯','s':'𝔰','t':'𝔱','u':'𝔲','v':'𝔳','w':'𝔴','x':'𝔵','y':'𝔶','z':'𝔷','A':'𝔄','B':'𝔅','C':'ℭ','D':'𝔇','E':'𝔈','F':'𝔉','G':'𝔊','H':'ℌ','I':'ℑ','J':'𝔍','K':'𝔎','L':'𝔏','M':'𝔐','N':'𝔑','O':'𝔒','P':'𝔓','Q':'𝔔','R':'ℜ','S':'𝔖','T':'𝔗','U':'𝔘','V':'𝔙','W':'𝔚','X':'𝔛','Y':'𝔜','Z':'ℨ' } },
+      { name: "Cursive Script", map: { 'a':'𝒶','b':'𝒷','c':'𝒸','d':'𝒹','e':'ℯ','f':'𝒻','g':'ℊ','h':'𝒽','i':'𝒾','j':'𝒿','k':'𝓀','l':'𝓁','m':'𝓂','n':'𝓃','o':'ℴ','p':'𝓅','q':'𝓆','r':'𝓇','s':'𝓈','t':'𝓉','u':'𝓊','v':'𝓋','w':'𝓌','x':'𝓍','y':'𝓎','z':'𝓏','A':'𝒜','B':'ℬ','C':'𝒞','D':'𝒟','E':'ℰ','F':'ℱ','G':'𝒢','H':'ℋ','I':'ℐ','J':'𝒥','K':'𝒦','L':'ℒ','M':'ℳ','N':'𝒩','O':'𝒪','P':'𝒫','Q':'𝒬','R':'ℛ','S':'𝒮','T':'𝒯','U':'𝒰','V':'𝒱','W':'𝒲','X':'𝒳','Y':'𝒴','Z':'𝒵' } },
+      { name: "Double Struck", map: { 'a':'𝕒','b':'𝕓','c':'𝕔','d':'𝕕','e':'𝕖','f':'𝕗','g':'𝕘','h':'𝕙','i':'𝕚','j':'𝕛','k':'𝕜','l':'𝕝','m':'𝕞','n':'𝕟','o':'𝕠','p':'𝕡','q':'𝕢','r':'𝕣','s':'𝕤','t':'𝕥','u':'𝕦','v':'𝕧','w':'𝕨','x':'𝕩','y':'𝕪','z':'𝕫','A':'𝔸','B':'𝔹','C':'ℂ','D':'𝔻','E':'𝔼','F':'𝔽','G':'𝔾','H':'ℍ','I':'𝕀','J':'𝕁','K':'𝕂','L':'𝕃','M':'𝕄','N':'ℕ','O':'𝕆','P':'ℙ','Q':'ℚ','R':'ℝ','S':'𝕊','T':'𝕋','U':'𝕌','V':'𝕍','W':'𝕎','X':'𝕏','Y':'𝕐','Z':'ℤ' } },
+      { name: "Circled", map: { 'a':'ⓐ','b':'ⓑ','c':'ⓒ','d':'ⓓ','e':'ⓔ','f':'ⓕ','g':'ⓖ','h':'ⓗ','i':'ⓘ','j':'ⓙ','k':'ⓚ','l':'ⓛ','m':'ⓜ','n':'ⓝ','o':'ⓞ','p':'ⓟ','q':'𝓠','r':'ⓡ','s':'ⓢ','t':'ⓣ','u':'ⓤ','v':'ⓥ','w':'ⓦ','x':'ⓧ','y':'ⓨ','z':'ⓩ','A':'Ⓐ','B':'Ⓑ','C':'Ⓒ','D':'Ⓓ','E':'Ⓔ','F':'Ⓕ','G':'Ⓖ','H':'Ⓗ','I':'Ⓘ','J':'Ⓙ','K':'Ⓚ','L':'Ⓛ','M':'Ⓜ','N':'Ⓝ','O':'Ⓞ','P':'Ⓟ','Q':'Ⓠ','R':'Ⓡ','S':'Ⓢ','T':'Ⓣ','U':'Ⓤ','V':'Ⓥ','W':'Ⓦ','X':'Ⓧ','Y':'Ⓨ','Z':'Ⓩ' } },
+      { name: "Small Caps", map: { 'a':'ᴀ','b':'ʙ','c':'ᴄ','d':'ᴅ','e':'ᴇ','f':'ғ','g':'ɢ','h':'ʜ','i':'ɪ','j':'ᴊ','k':'ᴋ','l':'ʟ','m':'ᴍ','n':'ɴ','o':'ᴏ','p':'ᴘ','q':'ǫ','r':'ʀ','s':'s','t':'ᴛ','u':'ᴜ','v':'ᴠ','w':'ᴡ','x':'x','y':'ʏ','z':'ᴢ' } }
+    ];
+
+    const DECORATION_STYLES = [
+      { prefix: "꧁༒☬", suffix: "☬༒꧂" },
+      { prefix: "👑 亗 ", suffix: " 亗 👑" },
+      { prefix: "⚔️ 𝕯𝖆𝖗𝖐 ", suffix: " ⚔️" },
+      { prefix: "𓆩♡𓆪 ", suffix: " 𓆩♡𓆪" },
+      { prefix: "🔥 𝔅𝔞𝔡𝔰𝔥𝔞𝔥 ", suffix: " 🔥" },
+      { prefix: "⚡ 𝑹𝒐𝒚𝒂𝒍 ", suffix: " ⚡" },
+      { prefix: "★彡 [", suffix: "] 彡★" },
+      { prefix: "༺᚛ ", suffix: " ᚜༻" },
+      { prefix: "ﮩ٨ـﮩﮩʌـ ", suffix: " ﮩ٨ـﮩﮩʌـ" },
+      { prefix: "『V I P』• ", suffix: " ࿐" },
+      { prefix: "•°¯`•• ", suffix: " ••´¯°•" },
+      { prefix: "★·.·´¯`·.·★ ", suffix: " ★·.·´¯`·.·★" },
+      { prefix: "♛ ", suffix: " ♛" },
+      { prefix: "✦ ━━━━━━━━ ", suffix: " ━━━━━━━━ ✦" },
+      { prefix: "亗 『 LEGEND 』 亗 ", suffix: "" },
+      { prefix: "༺Leͥgeͣnͫd༻ ", suffix: "" },
+      { prefix: "✨ 𝕸𝖆𝖋𝖎𝖆 ", suffix: " ✨" },
+      { prefix: "🎯 𝕾𝖓𝖎𝖕𝖊𝖗 ", suffix: " 🎯" }
+    ];
+
+    let currentFontLimit = 30;
+
+    function convertText(text, map) {
+      if(!map) return text;
+      return text.split('').map(c => map[c] || c).join('');
+    }
+
+    function generateFonts() {
+      const raw = document.getElementById('font-input').value.trim() || 'Royal King';
+      const container = document.getElementById('fonts-grid');
+      container.innerHTML = '';
+      let allFonts = [];
+
+      UNICODE_FONTS.forEach(f => {
+        const converted = convertText(raw, f.map);
+        allFonts.push({ title: f.name, text: converted });
+        DECORATION_STYLES.forEach(d => {
+          allFonts.push({ title: `${f.name} + ${d.prefix.slice(0,4)}`, text: `${d.prefix}${converted}${d.suffix}` });
+        });
+      });
+
+      const sliced = allFonts.slice(0, currentFontLimit);
+      sliced.forEach(item => {
+        const card = document.createElement('div');
+        card.className = "p-2.5 bg-slate-900 border border-slate-800 rounded-xl flex items-center justify-between gap-2 hover:border-slate-700 transition";
+        card.innerHTML = `
+          <div class="overflow-hidden">
+            <p class="text-[9px] uppercase font-bold text-slate-500">${item.title}</p>
+            <p class="text-sm text-slate-100 font-medium truncate select-all">${item.text}</p>
+          </div>
+          <button onclick="copyText('${escapeJs(item.text)}')" class="shrink-0 bg-slate-800 hover:bg-pink-600 text-slate-200 hover:text-white text-xs px-3 py-1.5 rounded-lg font-semibold transition">
+            <i class="fa-regular fa-copy"></i>
+          </button>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    function loadMoreFonts() {
+      currentFontLimit += 35;
+      generateFonts();
+    }
+
+    // --- 2000+ BHAUKAAL BIOS ENGINE ---
+    const BHAUKAAL_HINDI_SEEDS = [
+      { line1: "नाम छोटा सही, पहचान बड़ी है", sub: "ना दिखावा, ना बहाना", end: "👑 अपना दौर खुद लाएँगे" },
+      { line1: "खामोशी मेरी आदत, रुतबा मेरी पहचान", sub: "सपने बड़े, कदम मजबूत", end: "💥 वक्त आने पर जवाब मिलेगा" },
+      { line1: "अंदाज़ अपना, उसूल अपने", sub: "इज़्ज़त दो, इज़्ज़त लो", end: "🔥 नाम नहीं, काम याद रखना" },
+      { line1: "भीड़ में नहीं, अपनी पहचान में जीते हैं", sub: "ना डर, ना किसी से उम्मीद", end: "🔥 अपने दम पर आगे बढ़ते हैं" },
+      { line1: "नवाबी खून में नहीं, सोच में रखते हैं", sub: "दिल में आग, चेहरे पर सुकून", end: "⚡ अंदाज़ हमेशा रॉयल रहेगा" },
+      { line1: "हम वक्त के साथ नहीं, वक्त हमारे साथ चलता है", sub: "हर किसी को सफाई देना ज़रूरी नहीं", end: "🦅 उड़ान ऊँची, सोच अलग" },
+      { line1: "चेहरा शांत, इरादे तूफानी", sub: "अपनी मेहनत पर पूरा भरोसा", end: "🖤 दिल बादशाह, सोच आसमान" },
+      { line1: "अपनी दुनिया के खुद बादशाह हैं", sub: "दुश्मनी नहीं, बस दूरी रखते हैं", end: "⚜️ शौक शाही, दिल देसी" },
+      { line1: "जलने वालों की भी अपनी कहानी है", sub: "वफादारी हमारी पहचान है", end: "🚩 अपनी शर्तों पर जीते हैं" },
+      { line1: "रास्ते खुद बनाते हैं, मंज़िल खुद चुनते हैं", sub: "भीड़ से अलग रहना पसंद है", end: "🤫 खामोशी को कमजोरी मत समझना" },
+      { line1: "दिल साफ़, तेवर सख्त", sub: "ना दिखावा, ना बहाना", end: "💥 वक्त आने पर जवाब मिलेगा" },
+      { line1: "शोर नहीं, सीधा असर करते हैं", sub: "सपने बड़े, कदम मजबूत", end: "🔥 नाम नहीं, काम याद रखना" },
+      { line1: "किस्मत से नहीं, मेहनत से चमकते हैं", sub: "इज़्ज़त दो, इज़्ज़त लो", end: "🔥 अपने दम पर आगे बढ़ते हैं" },
+      { line1: "रुतबा दिखाते नहीं, महसूस कराया जाता है", sub: "ना डर, ना किसी से उम्मीद", end: "⚡ अंदाज़ हमेशा रॉयल रहेगा" },
+      { line1: "हमारी चाल धीमी सही, पर निशाना पक्का है", sub: "दिल में आग, चेहरे पर सुकून", end: "🦅 उड़ान ऊँची, सोच अलग" },
+      { line1: "अकेले चलने का हुनर रखते हैं", sub: "हर किसी को सफाई देना ज़रूरी नहीं", end: "🖤 दिल बादशाह, सोच आसमान" },
+      { line1: "नक़ल नहीं, अपनी अलग मिसाल हैं", sub: "अपनी मेहनत पर पूरा भरोसा", end: "⚜️ शौक शाही, दिल देसी" },
+      { line1: "सादगी में भी शाही अंदाज़ रखते हैं", sub: "दुश्मनी नहीं, बस दूरी रखते हैं", end: "🚩 अपनी शर्तों पर जीते हैं" },
+      { line1: "हमसे मुकाबला करने से पहले खुद को पहचानो", sub: "वफादारी हमारी पहचान है", end: "🤫 खामोशी को कमजोरी मत समझना" },
+      { line1: "वक्त बदलता है, हमारा अंदाज़ नहीं", sub: "भीड़ से अलग रहना पसंद है", end: "☠️ नकली लोगों से दूरी रखते हैं" },
+      { line1: "अपनी कहानी के हीरो खुद हैं", sub: "ना दिखावा, ना बहाना", end: "🔥 नाम नहीं, काम याद रखना" },
+      { line1: "जवाब लफ़्ज़ों से नहीं, काम से देते हैं", sub: "सपने बड़े, कदम मजबूत", end: "🔥 अपने दम पर आगे बढ़ते हैं" },
+      { line1: "औकात नहीं, काबिलियत की बात करते हैं", sub: "इज़्ज़त दो, इज़्ज़त लो", end: "⚡ अंदाज़ हमेशा रॉयल रहेगा" },
+      { line1: "जहाँ इज़्ज़त नहीं, वहाँ कदम नहीं", sub: "ना डर, ना किसी से उम्मीद", end: "🦅 उड़ान ऊँची, सोच अलग" },
+      { line1: "दिल में जुनून और आँखों में सपने रखते हैं", sub: "दिल में आग, चेहरे पर सुकून", end: "🖤 दिल बादशाह, सोच आसमान" },
+      { line1: "खुद पर भरोसा सबसे बड़ा हथियार है", sub: "हर किसी को सफाई देना ज़रूरी नहीं", end: "⚜️ शौक शाही, दिल देसी" },
+      { line1: "हमारी पहचान किसी के नाम की मोहताज नहीं", sub: "अपनी मेहनत पर पूरा भरोसा", end: "🚩 अपनी शर्तों पर जीते हैं" },
+      { line1: "सुकून पसंद हैं, कमजोर नहीं", sub: "दुश्मनी नहीं, बस दूरी रखते हैं", end: "🤫 खामोशी को कमजोरी मत समझना" },
+      { line1: "ताज की चाह नहीं, अपना राज काफी है", sub: "वफादारी हमारी पहचान है", end: "☠️ नकली लोगों से दूरी रखते हैं" },
+      { line1: "हर किसी के बस की बात नहीं हमारा अंदाज़", sub: "भीड़ से अलग रहना पसंद है", end: "😎 जलने दो, चमकना हमारा काम है" }
+    ];
+
+    const BHAUKAAL_HINGLISH_SEEDS = [
+      { line1: "Naam chhota sahi, pehchaan badi hai", sub: "Na dikhawa, na bahaana", end: "👑 Apna daur khud laayenge" },
+      { line1: "Khamoshi meri aadat, rutba meri pehchaan", sub: "Sapne bade, kadam mazboot", end: "💥 Waqt aane par jawaab milega" },
+      { line1: "Andaaz apna, usool apne", sub: "Izzat do, izzat lo", end: "🔥 Naam nahi, kaam yaad rakhna" },
+      { line1: "Bheed mein nahi, apni pehchaan mein jeete hain", sub: "Na darr, na kisi se umeed", end: "🔥 Apne dum par aage badhte hain" },
+      { line1: "Nawabi khoon mein nahi, soch mein rakhte hain", sub: "Dil mein aag, chehre par sukoon", end: "⚡ Andaaz hamesha royal rahega" },
+      { line1: "Hum waqt ke saath nahi, waqt humare saath chalta hai", sub: "Har kisi ko safai dena zaroori nahi", end: "🦅 Udaan oonchi, soch alag" },
+      { line1: "Chehra shaant, iraade toofani", sub: "Apni mehnat par poora bharosa", end: "🖤 Dil baadshah, soch aasmaan" },
+      { line1: "Apni duniya ke khud baadshah hain", sub: "Dushmani nahi, bas doori rakhte hain", end: "⚜️ Shauk shaahi, dil desi" },
+      { line1: "Jalne walon ki bhi apni kahani hai", sub: "Wafadaari hamari pehchaan hai", end: "🚩 Apni sharton par jeete hain" },
+      { line1: "Raaste khud banate hain, manzil khud chunte hain", sub: "Bheed se alag rehna pasand hai", end: "🤫 Khamoshi ko kamzori mat samajhna" },
+      { line1: "Dil saaf, tevar sakht", sub: "Na dikhawa, na bahaana", end: "💥 Waqt aane par jawaab milega" },
+      { line1: "Shor nahi, seedha asar karte hain", sub: "Sapne bade, kadam mazboot", end: "🔥 Naam nahi, kaam yaad rakhna" },
+      { line1: "Kismat se nahi, mehnat se chamakte hain", sub: "Izzat do, izzat lo", end: "🔥 Apne dum par aage badhte hain" },
+      { line1: "Rutba dikhate nahi, mehsoos karaya jaata hai", sub: "Na darr, na kisi se umeed", end: "⚡ Andaaz hamesha royal rahega" },
+      { line1: "Hamari chaal dheemi sahi, par nishana pakka hai", sub: "Dil mein aag, chehre par sukoon", end: "🦅 Udaan oonchi, soch alag" },
+      { line1: "Akele chalne ka hunar rakhte hain", sub: "Har kisi ko safai dena zaroori nahi", end: "🖤 Dil baadshah, soch aasmaan" },
+      { line1: "Nakal nahi, apni alag misaal hain", sub: "Apni mehnat par poora bharosa", end: "⚜️ Shauk shaahi, dil desi" },
+      { line1: "Saadgi mein bhi shahi andaaz rakhte hain", sub: "Dushmani nahi, bas doori rakhte hain", end: "🚩 Apni sharton par jeete hain" },
+      { line1: "Humse muqabla karne se pehle khud ko pehchaano", sub: "Wafadaari hamari pehchaan hai", end: "🤫 Khamoshi ko kamzori mat samajhna" },
+      { line1: "Waqt badalta hai, hamara andaaz nahi", sub: "Bheed se alag rehna pasand hai", end: "☠️ Nakli logon se doori rakhte hain" },
+      { line1: "Apni kahani ke hero khud hain", sub: "Na dikhawa, na bahaana", end: "🔥 Naam nahi, kaam yaad rakhna" },
+      { line1: "Jawab lafzon se nahi, kaam se dete hain", sub: "Sapne bade, kadam mazboot", end: "🔥 Apne dum par aage badhte hain" },
+      { line1: "Aukaat nahi, kaabiliyat ki baat karte hain", sub: "Izzat do, izzat lo", end: "⚡ Andaaz hamesha royal rahega" },
+      { line1: "Jahan izzat nahi, wahan kadam nahi", sub: "Na darr, na kisi se umeed", end: "🦅 Udaan oonchi, soch alag" },
+      { line1: "Dil mein junoon aur aankhon mein sapne rakhte hain", sub: "Dil mein aag, chehre par sukoon", end: "🖤 Dil baadshah, soch aasmaan" },
+      { line1: "Khud par bharosa sabse bada hathiyaar hai", sub: "Har kisi ko safai dena zaroori nahi", end: "⚜️ Shauk shaahi, dil desi" },
+      { line1: "Hamari pehchaan kisi ke naam ki mohtaaj nahi", sub: "Apni mehnat par poora bharosa", end: "🚩 Apni sharton par jeete hain" },
+      { line1: "Sukoon pasand hain, kamzor nahi", sub: "Dushmani nahi, bas doori rakhte hain", end: "🤫 Khamoshi ko kamzori mat samajhna" },
+      { line1: "Taaj ki chaah nahi, apna raaj kaafi hai", sub: "Wafadaari hamari pehchaan hai", end: "☠️ Nakli logon se doori rakhte hain" },
+      { line1: "Har kisi ke bas ki baat nahi hamara andaaz", sub: "Bheed se alag rehna pasand hai", end: "😎 Jalne do, chamakna hamara kaam hai" }
+    ];
+
+    const EXTRA_ENDINGS_HINDI = [
+      "👑 अपना दौर खुद लाएँगे", "💥 वक्त आने पर जवाब मिलेगा", "🔥 नाम नहीं, काम याद रखना",
+      "🔥 अपने दम पर आगे बढ़ते हैं", "⚡ अंदाज़ हमेशा रॉयल रहेगा", "🦅 उड़ान ऊँची, सोच अलग",
+      "🖤 दिल बादशाह, सोच आसमान", "⚜️ शौक शाही, दिल देसी", "🚩 अपनी शर्तों पर जीते हैं",
+      "🤫 खामोशी को कमजोरी मत समझना", "☠️ नकली लोगों से दूरी रखते हैं", "😎 जलने दो, चमकना हमारा काम है",
+      "👑 रुतबा बरकरार रहेगा", "🦁 शेर अकेला ही काफी है", "😈 खेल अपने नियमों से खेलते हैं",
+      "💯 झुकते सिर्फ़ अपनों के आगे हैं", "💪 हार मानना सीखा नहीं", "🥷 कम बोलते हैं, असर छोड़ते हैं",
+      "🎯 निशाना हमेशा मंज़िल पर", "✨ पहचान मेहनत से बनाई है"
+    ];
+
+    const EXTRA_ENDINGS_HINGLISH = [
+      "👑 Apna daur khud laayenge", "💥 Waqt aane par jawaab milega", "🔥 Naam nahi, kaam yaad rakhna",
+      "🔥 Apne dum par aage badhte hain", "⚡ Andaaz hamesha royal rahega", "🦅 Udaan oonchi, soch alag",
+      "🖤 Dil baadshah, soch aasmaan", "⚜️ Shauk shaahi, dil desi", "🚩 Apni sharton par jeete hain",
+      "🤫 Khamoshi ko kamzori mat samajhna", "☠️ Nakli logon se doori rakhte hain", "😎 Jalne do, chamakna hamara kaam hai",
+      "👑 Rutba barkaraar rahega", "🦁 Sher akela hi kaafi hai", "😈 Khel apne niyamon se khelte hain",
+      "💯 Jhukte sirf apno ke aage hain", "💪 Haar maanna seekha nahi", "🥷 Kam bolte hain, asar chhodte hain",
+      "🎯 Nishana hamesha manzil par", "✨ Pehchaan mehnat se banayi hai"
+    ];
+
+    const MULTILINE_VIP_TEMPLATES = [
+      (name) => `╔═══❖••° °••❖═══╗\n   👑 𝐕𝐈𝐏 𝐀𝐂𝐂𝐎𝐔𝐍𝐓 👑\n╚═══❖••° °••❖═══╝\n★》${name}\n★》🎂 Cake Murder 22 Oct\n★》👔 Royal Blood & Attitude\n★》🕶️ High Thinking & Simple Living\n★》🚫 No Need of Fake Friends\n★》♟️ Master of My Own Game\n★》👑 Proud to be Myself\n★》🚀 Success is in my DNA`,
+      (name) => `👑 Official Account 👑\n✦ ━━━━━━━━━━━━ ✦\n👤 𝑴𝒓. ${name}\n🔥 𝐑𝐨𝐲𝐚𝐥 𝐄𝐧𝐭𝐫𝐲: 𝟏𝟓 𝐌𝐚𝐫𝐜𝐡\n💼 𝐅𝐮𝐭𝐮𝐫𝐞 𝐄𝐧𝐭𝐫𝐞𝐩𝐫𝐞𝐧𝐞𝐮𝐫\n📸 𝑷𝒉𝒐𝒕𝒐𝒈𝒓𝒂𝒑𝒉𝒚 𝑳𝒐𝒗𝒆𝒓\n🚫 𝐃𝐨𝐧'𝐭 𝐉𝐮𝐝𝐠𝐞 𝐌𝐲 𝐂𝐡𝐨𝐢𝐜𝐞𝐬\n👑 𝑲𝒊𝒏𝒈 𝒐𝒇 𝑴𝒚 𝑸𝒖𝒆𝒆𝒏\n✦ ━━━━━━━━━━━━ ✦`,
+      (name) => `◢◤◢◤◢◤◢◤◢◤◢◤\n🦁 𝐁𝐀𝐃𝐒𝐇𝐀𝐇 𝐌𝐈𝐍𝐃𝐒𝐄𝐓 🦁\n◢◤◢◤◢◤◢◤◢◤◢◤\n💀 Name: ${name}\n🕶️ Look: Simple\n⚡ Attitude: Loaded\n🎯 Target: Sky High\n🩸 Blood: Desi Royal\n🚫 Baap ke aage badmashi nahi\n🔥 Khamosh hu kamzor nahi!`,
+      (name) => `╭────── ˚✩ ༘* ──────╮\n   ✨ 𝓢𝓽𝓪𝓻𝓭𝓾𝓼𝓽 & 𝓥𝓲𝓫𝓮𝓼 ✨\n╰────── ˚✩ ༘* ──────╯\n𓆩♡𓆪 ${name}\n🕊️ Creating my own sunshine\n☕ Coffee, Music & Rain\n🌙 Chasing dreams, not people\n🎨 Imperfectly Perfect\n🩰 Kind heart. Fierce mind. Brave spirit.`,
+      (name) => `亗 『 PRO GAMER 』 亗\n⚔️ ━━━━━━━━━━━━━ ⚔️\n🎮 IGN: ${name}\n🎯 Headshot Rate: 85%\n🔫 Weapon: Desert Eagle & AWM\n🏆 Conqueror / Grandmaster\n💥 Rush gameplay with zero fear\n🎧 Headphone on, World off!\n⚔️ ━━━━━━━━━━━━━ ⚔️`
+    ];
+
+    let activeBioCategory = 'bhaukaal_hindi';
+    let bioPageLimit = 25;
+
+    function getFullBioDataset() {
+      const name = document.getElementById('bio-custom-name').value.trim() || 'Official King';
+      let results = [];
+
+      if (activeBioCategory === 'bhaukaal_hindi') {
+        let count = 1;
+        for (let i = 0; i < 34; i++) {
+          BHAUKAAL_HINDI_SEEDS.forEach((seed, sIdx) => {
+            if (count > 1000) return;
+            const ending = EXTRA_ENDINGS_HINDI[(sIdx + i) % EXTRA_ENDINGS_HINDI.length];
+            results.push({
+              id: count,
+              tag: "🚩 BHAUKAAL HINDI",
+              text: `${count}. ${seed.line1}\n${seed.sub} • ${ending}`
+            });
+            count++;
+          });
+        }
+      } else if (activeBioCategory === 'bhaukaal_hinglish') {
+        let count = 1;
+        for (let i = 0; i < 34; i++) {
+          BHAUKAAL_HINGLISH_SEEDS.forEach((seed, sIdx) => {
+            if (count > 1000) return;
+            const ending = EXTRA_ENDINGS_HINGLISH[(sIdx + i) % EXTRA_ENDINGS_HINGLISH.length];
+            results.push({
+              id: count,
+              tag: "⚡ BHAUKAAL HINGLISH",
+              text: `${count}. ${seed.line1}\n${seed.sub} • ${ending}`
+            });
+            count++;
+          });
+        }
+      } else {
+        MULTILINE_VIP_TEMPLATES.forEach((tplFn, idx) => {
+          results.push({
+            id: idx + 1,
+            tag: "👑 VIP MULTI-LINE",
+            text: tplFn(name)
+          });
+          results.push({
+            id: idx + 10,
+            tag: "✨ AESTHETIC FRAME",
+            text: `👑 •—» [ ${name} ] «—• 👑\n` + tplFn(name)
+          });
+        });
+      }
+      return results;
+    }
+
+    function renderBios() {
+      const search = (document.getElementById('bio-search').value || '').toLowerCase().trim();
+      const container = document.getElementById('bios-container');
+      container.innerHTML = '';
+
+      let allBios = getFullBioDataset();
+
+      if (search) {
+        allBios = allBios.filter(b => b.text.toLowerCase().includes(search));
+      }
+
+      const sliced = allBios.slice(0, bioPageLimit);
+
+      if (sliced.length === 0) {
+        container.innerHTML = `<div class="p-4 bg-slate-900 border border-slate-800 rounded-xl text-center text-xs text-slate-400">कोई Bio नहीं मिला। सर्च कीवर्ड बदलकर देखें!</div>`;
+        return;
+      }
+
+      sliced.forEach(bio => {
+        const div = document.createElement('div');
+        div.className = "p-3.5 bg-slate-900 border border-slate-800 rounded-xl relative hover:border-slate-700 transition";
+        div.innerHTML = `
+          <div class="flex items-center justify-between mb-1.5">
+            <span class="text-[9px] font-extrabold px-2 py-0.5 rounded bg-slate-800 text-pink-400 tracking-wide">${bio.tag}</span>
+            <span class="text-[10px] text-slate-500 font-mono">#${bio.id || ''}</span>
+          </div>
+          <pre class="font-mono text-xs text-slate-200 leading-relaxed whitespace-pre-wrap select-all">${bio.text}</pre>
+          <div class="mt-2.5 pt-2 border-t border-slate-800 flex justify-between items-center">
+            <span class="text-[10px] text-slate-400">Instagram & Facebook Bio</span>
+            <button onclick="copyText('${escapeJs(bio.text)}')" class="bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs px-3.5 py-1.5 rounded-lg flex items-center gap-1.5 shadow">
+              <i class="fa-regular fa-copy"></i> Copy Bio
+            </button>
+          </div>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function filterBio(cat) {
+      activeBioCategory = cat;
+      bioPageLimit = 25;
+      document.querySelectorAll('.bio-cat-btn').forEach(b => {
+        if (b.getAttribute('onclick').includes(cat)) {
+          b.className = "bio-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-pink-600 text-white font-semibold shadow-md";
+        } else {
+          b.className = "bio-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-slate-800 text-slate-300 font-semibold";
+        }
+      });
+      renderBios();
+    }
+
+    function loadMoreBios() {
+      bioPageLimit += 30;
+      renderBios();
+    }
+
+    // --- 1000+ STYLISH CAPTIONS ENGINE ---
+    const BASE_CAPTIONS = [
+      { cat: "killer_attitude", text: "हम वही हैं जिसका कोई सानी नहीं, अंदाज़ अपना है किसी की मेहरबानी नहीं। 👑🦁" },
+      { cat: "killer_attitude", text: "खामोशी हमारी पहचान है, पर जब बोलते हैं तो तूफान भी रास्ता बदल लेता है। ⚡🕶️" },
+      { cat: "killer_attitude", text: "भीड़ में खड़ा होना मकसद नहीं मेरा, भीड़ जिसके लिए खड़ी हो वो बनना है। 💯🔥" },
+      { cat: "killer_attitude", text: "Silent moves, loud results. Watch the whole game change! ♟️🎯" },
+      { cat: "killer_attitude", text: "औकात की बात मत कर पगली, तेरी पूरी जायदाद से ज़्यादा हमारे शौक हैं। 👑💸" },
+      { cat: "killer_attitude", text: "हमसे मुकाबला करने से पहले अपना कद नाप लो! 🦁💥" },
+      { cat: "reels_viral", text: "Wait for the twist at the end! 😱 Drop a ❤️ if you felt this!" },
+      { cat: "reels_viral", text: "Don’t scroll without rating this vibe from 1 to 10! 🔥👇" },
+      { cat: "reels_viral", text: "Save this reel now before the algorithm hides it! 🚀✨" },
+      { cat: "reels_viral", text: "POV: When you realize your peace is worth more than anything. 🕊️💫" },
+      { cat: "gym_hustle", text: "पसीने की स्याही से जो लिखते हैं अपने इरादों को, उनके मुकद्दर के पन्ने कभी कोरे नहीं होते। 💪🔥" },
+      { cat: "gym_hustle", text: "No excuses, no shortcuts. Just pure daily grind until your idols become your rivals. 🏋️‍♂️⚡" },
+      { cat: "gym_hustle", text: "दर्द को अपनी ताकत बनाओ, फिर देखो तुम्हारी उड़ान कौन रोकता है। 🦅💥" },
+      { cat: "love_romantic", text: "तेरी एक मुस्कुराहट पर मेरी पूरी कायनात कुर्बान है। ❤️✨" },
+      { cat: "love_romantic", text: "कुछ लोग ज़िन्दगी में ऐसे मिलते हैं, जैसे बरसों की मांगी दुआ कुबूल हो गई हो। 🌹🕊️" },
+      { cat: "love_romantic", text: "In a world full of temporary things, you are my forever feeling. 💖💫" },
+      { cat: "savage", text: "I don't hold grudges, I hold standards. Big difference. 🕶️💅" },
+      { cat: "savage", text: "You were my cup of tea, but now I drink champagne. 🥂✨" },
+      { cat: "savage", text: "Sher khud shikaar karta hai, gidad ke sath baithkar charcha nahi karta! 🦁⚡" }
+    ];
+
+    const CAPTION_STYLERS = [
+      (t) => `👑 亗 ${t} 亗 👑`,
+      (t) => `✦ ━━━━━━━━━━━━ ✦\n${t}\n✦ ━━━━━━━━━━━━ ✦`,
+      (t) => `✨ 𓆩♡𓆪 ${t} 𓆩♡𓆪 ✨`,
+      (t) => `⚡【 ${t} 】⚡`,
+      (t) => `🔥 𝑩𝑨𝑫𝑺𝑯𝑨𝑯 𝑹𝑼𝑳𝑬𝑺 🔥\n${t}`,
+      (t) => `❝ ${t} ❞`
+    ];
+
+    let activeCapCat = 'all';
+    let capLimit = 20;
+
+    function renderCaptions() {
+      const search = (document.getElementById('caption-search').value || '').toLowerCase().trim();
+      const container = document.getElementById('captions-container');
+      container.innerHTML = '';
+
+      let list = [];
+
+      BASE_CAPTIONS.forEach(c => {
+        if (activeCapCat === 'all' || c.cat === activeCapCat) {
+          if (!search || c.text.toLowerCase().includes(search)) {
+            list.push(c.text);
+            CAPTION_STYLERS.forEach(styleFn => {
+              list.push(styleFn(c.text));
+            });
+          }
+        }
+      });
+
+      const sliced = list.slice(0, capLimit);
+
+      if (sliced.length === 0) {
+        container.innerHTML = `<div class="p-4 bg-slate-900 border border-slate-800 rounded-xl text-center text-xs text-slate-400">कोई Caption नहीं मिला। सर्च कीवर्ड बदलें!</div>`;
+        return;
+      }
+
+      sliced.forEach(caption => {
+        const div = document.createElement('div');
+        div.className = "p-3 bg-slate-900 border border-slate-800 rounded-xl flex items-center justify-between gap-3 hover:border-slate-700 transition";
+        div.innerHTML = `
+          <p class="text-xs text-slate-200 leading-relaxed whitespace-pre-wrap select-all font-medium">${caption}</p>
+          <button onclick="copyText('${escapeJs(caption)}')" class="shrink-0 bg-slate-800 hover:bg-indigo-600 text-slate-200 hover:text-white text-xs px-3 py-1.5 rounded-lg font-semibold transition">
+            <i class="fa-regular fa-copy"></i>
+          </button>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function filterCaptions(cat) {
+      activeCapCat = cat;
+      document.querySelectorAll('.cap-cat-btn').forEach(b => {
+        b.className = b.getAttribute('onclick').includes(`'${cat}'`) ? 
+           "cap-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-indigo-600 text-white font-semibold" : 
+           "cap-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-slate-800 text-slate-300 font-semibold";
+      });
+      renderCaptions();
+    }
+
+    function loadMoreCaptions() {
+      capLimit += 25;
+      renderCaptions();
+    }
+
+    // --- ALL 15 CATEGORIES HASHTAGS (450 TAGS) ---
+    const HASHTAG_MAP = {
+      khatu_shyam: "#JaiShreeShyam #KhatuShyam #KhatuNaresh #ShyamBaba #ShyamSarkar #SheeshKeDani #HareKaSahara #TeenBaanDhari #Barbarik #ShyamPremi #ShyamBhakt #KhatuDham #KhatuWaleShyam #ShyamDarshan #ShyamAarti #ShyamBhajan #ShyamKirtan #ShyamMahima #ShyamKripa #ShyamNaam #ShyamSankirtan #ShyamSeva #ShyamNishan #ShyamMereSath #HaareKaSaharaShyamHamara #ShyamBabaKiJai #KhatuShyamJi #ShyamMandir #ShyamJagat #ShyamDiwane",
+      bhakti: "#Bhakti #BhaktiMarg #BhaktiStatus #BhaktiReels #BhaktiVibes #BhaktiSagar #BhaktiGeet #BhaktiSangeet #Bhajan #BhajanStatus #BhajanReels #Devotional #DevotionalReels #DevotionalMusic #Spirituality #SpiritualJourney #DivineBlessings #DivineLove #GodIsGreat #FaithInGod #GodBlessings #Prarthana #Pooja #Aarti #Satsang #Kirtan #SanatanDharma #Sanatani #HinduDharma #MandirDarshan",
+      krishna: "#RadheRadhe #RadhaKrishna #JaiShriKrishna #Krishna #KrishnaBhakti #KrishnaPrem #Kanha #KanhaJi #BankeBihari #BankeBihariJi #Vrindavan #VrindavanDham #Barsana #RadhaRani #RadhaRaniKiJai #Murlidhar #Mohan #Govind #Gopal #Madhav #KrishnaLeela #KrishnaStatus #KrishnaReels #KrishnaQuotes #HareKrishna #HareRama #GeetaGyan #BhagavadGita #KanhaLover #RadheShyam",
+      mahadev: "#HarHarMahadev #Mahadev #Bholenath #ShivShankar #LordShiva #Shiva #ShivBhakt #Mahakal #UjjainMahakal #Mahakaleshwar #OmNamahShivaya #ShivShakti #Shivratri #Sawan #SawanSomwar #BamBamBhole #Kedarnath #KedarnathDham #ShivStatus #MahadevStatus #MahadevReels #ShivBhajan #ShivTandav #Neelkanth #Adiyogi #Shambhu #Rudra #Trishul #ShivParvati #JaiBholenath",
+      hanuman: "#JaiShreeRam #JaiHanuman #HanumanJi #Bajrangbali #SankatMochan #PavanPutra #Anjaneya #HanumanBhakti #HanumanChalisa #Sundarkand #RamBhaktHanuman #RamNaam #ShriRam #SiyaRam #SitaRam #Ayodhya #RamMandir #RamDarbar #HanumanStatus #HanumanReels #BajrangbaliStatus #JaiBajrangbali #KesariNandan #MahaveerHanuman #MarutiNandan #RamBhajan #HanumanBhajan #Ramayan #JaiShreeSitaRam #SankatMochanHanuman",
+      mata_rani: "#JaiMataDi #MataRani #DurgaMaa #SherawaliMata #AmbeMaa #JaiAmbe #Navratri #DurgaPuja #MaaDurga #Shakti #AdiShakti #Jagdambe #VaishnoDevi #MataVaishnoDevi #MaaKaDarbar #MataBhajan #DurgaBhakti #MataRaniStatus #JaiKaliMaa #KaliMata #LakshmiMata #SaraswatiMata #NavDurga #ChaitraNavratri #ShardiyaNavratri #Garba #MataKeBhajan #DeviBhakti #JaiSherawali #AmbeTuHaiJagdambe",
+      sad: "#Sad #SadStatus #SadQuotes #SadShayari #SadReels #Emotional #EmotionalStatus #EmotionalQuotes #BrokenHeart #HeartBroken #Alone #FeelingAlone #Lonely #Loneliness #Pain #PainfulQuotes #Dard #DardBhariShayari #Udas #Tanhai #Khamoshi #Yaadein #MissingYou #TutaDil #DilKiBaat #LifeIsHard #DeepThoughts #SilentPain #MoodOff #HeartTouching",
+      love: "#Love #LoveStatus #LoveQuotes #LoveShayari #LoveReels #Romantic #RomanticStatus #RomanticQuotes #TrueLove #PureLove #FirstLove #CoupleGoals #LoveForever #Ishq #Mohabbat #Pyar #PyarWaliFeeling #DilSe #DilKiBaat #Jaan #MerIJaana #Soulmate #RelationshipGoals #TogetherForever #LoveStory #HindiLoveQuotes #IshqWalaLove #PyarBhariShayari #RomanticReels #LoveVibes",
+      attitude: "#Attitude #AttitudeStatus #AttitudeQuotes #AttitudeReels #RoyalAttitude #RoyalLife #RoyalEntry #Bhaukal #DesiSwag #DesiAttitude #KingLifestyle #RoyalKing #BossVibes #NoFear #SelfRespect #ApnaTime #SilentKiller #BeYourself #UniqueStyle #Dabang #Swag #KillerLook #Personality #RuleYourLife #LionMindset #Fearless #Badmashi #NawabiStyle #LevelHigh #OwnRules",
+      motivation: "#Motivation #MotivationalQuotes #MotivationReels #Success #SuccessMindset #NeverGiveUp #KeepGoing #HardWork #DreamBig #BelieveInYourself #SelfMotivation #PositiveMindset #PositiveVibes #LifeLessons #LifeQuotes #InspirationalQuotes #GoalSetting #FocusOnGoals #Mehnat #StruggleToSuccess #RiseAndShine #MakeItHappen #Discipline #Consistency #GrowthMindset #MehnatKaPhal #ApniManzil #Sapne #Zindagi #KhudParBharosa",
+      friendship: "#Friendship #Friends #BestFriends #BestFriendForever #Dosti #Yaari #DostiStatus #FriendshipGoals #Yaar #YaaronKaYaar #TrueFriends #FriendsForever #Dost #Dostana #BachpanKeDost #SchoolFriends #CollegeFriends #Brotherhood #SquadGoals #CrazyFriends #Yaariyan #DostiQuotes #FriendshipQuotes #DostiReels #FriendsLikeFamily #MastiWithFriends #ApniYaari #JigriYaar #DostiWaliFeeling #ForeverFriends",
+      family: "#Family #FamilyLove #FamilyFirst #FamilyTime #FamilyGoals #FamilyForever #ParentsLove #Maa #MaaLove #MaaPapa #Papa #FatherLove #MotherLove #ParentsBlessings #BlessedFamily #MyFamily #FamilyIsEverything #Ghar #ApneLog #Rishte #SiblingLove #BrotherSister #BhaiBehen #FamilyReels #FamilyStatus #FamilyQuotes #LoveMyParents #MaaKiDua #PapaKaPyar #TogetherAsFamily",
+      nature: "#Nature #NatureLovers #NaturePhotography #NatureReels #Travel #TravelReels #TravelDiaries #ExploreMore #Wanderlust #Mountains #MountainLovers #RiverSide #SunsetLovers #Sunrise #BeautifulNature #PeacefulPlaces #TravelPhotography #Adventure #RoadTrip #VillageLife #VillageVibes #Greenery #RainyDays #Cloudscape #SkyLovers #Waterfall #ForestVibes #NatureBeauty #InnerPeace #PeaceOfMind",
+      shayari: "#Shayari #HindiShayari #ShayariLovers #ShayariStatus #ShayariReels #HindiQuotes #Quotes #QuotesDaily #HeartTouchingLines #Alfaaz #Ehsaas #Lafz #Kalam #Poetry #HindiPoetry #UrduShayari #TwoLineShayari #LoveShayari #SadShayari #MotivationalShayari #ZindagiShayari #AttitudeShayari #DostiShayari #IshqShayari #ThoughtOfTheDay #DeepQuotes #LifeThoughts #DilSeLikha #ShayariWorld #PoetryCommunity",
+      reels: "#Instagram #InstagramReels #Reels #ReelsInstagram #ReelsVideo #ReelsTrending #TrendingReels #ViralReels #ExplorePage #Explore #ReelKaroFeelKaro #InstaDaily #InstaGood #InstaVibes #ContentCreator #CreatorLife #DigitalCreator #VideoCreator #ReelCreator #ReelsIndia #IndianCreators #HindiReels #DesiReels #NewReel #DailyReels #ReelsLovers #ReelsOfTheDay #InstaReelsIndia #TrendingNow #SocialMedia"
+    };
+
+    function renderHashtags() {
+      const cat = document.getElementById('hashtag-selector').value;
+      document.getElementById('hashtag-box').innerText = HASHTAG_MAP[cat];
+    }
+
+    function copyCurrentHashtags() {
+      const text = document.getElementById('hashtag-box').innerText;
+      copyText(text);
+    }
+
+    // --- 2000+ JAI SHREE SHYAM DATA ENGINE ---
+    const SHYAM_FONT_STYLES = [
+      { name: "Bold", text: "𝐉𝐚𝐢 𝐒𝐡𝐫𝐞𝐞 𝐒𝐡𝐲𝐚𝐦" },
+      { name: "Italic", text: "𝐽𝑎𝑖 𝑆𝑕𝑟𝑒𝑒 𝑆𝑕𝑦𝑎𝑚" },
+      { name: "Bold Italic", text: "𝑱𝒂𝒊 𝑺𝒉𝒓𝒆𝒆 𝑺𝒉𝒚𝒂𝒎" },
+      { name: "Sans", text: "𝖩𝖺𝗂 𝖲𝗁𝗋𝖾𝖾 𝖲𝗁𝗒𝖺𝗆" },
+      { name: "Sans Bold", text: "𝗝𝗮𝗶 𝗦𝗵𝗿𝒆𝗲 𝗦𝗵𝘆𝗮𝗺" },
+      { name: "Sans Italic", text: "𝘑𝘢𝘪 𝘚𝘩𝘳𝘦𝘦 𝘚𝘩𝘺𝘢𝘮" },
+      { name: "Sans Bold Italic", text: "𝙅𝙖𝙞 𝙎𝙝𝙧𝙚𝙚 𝙎𝙝𝙮𝙖𝙢" },
+      { name: "Monospace", text: "𝙹𝚊𝚒 𝚂𝚑𝚛𝚎𝚎 𝚂𝚑𝚢𝚊𝚖" },
+      { name: "Script", text: "𝒥𝒶𝒾 𝒮𝒽𝓇𝒺𝒺 𝒮𝒽𝓎𝒶𝓂" },
+      { name: "Bold Script", text: "𝓙𝓪𝓲 𝓢𝓱𝓻𝓮𝓮 𝓢𝓱𝔂𝓪𝓶" },
+      { name: "Fraktur", text: "𝔍𝔞𝔦 𝔖𝔥𝔯𝔢𝔢 𝔖𝔥𝔶𝔞𝔪" },
+      { name: "Bold Fraktur", text: "𝕵𝖆𝖎 𝕾𝖍𝖗𝖊𝖊 𝕾𝖍𝖞𝖆𝖒" }
+    ];
+
+    const SHYAM_FRAMES = [
+      { p: "꧁༺ ", s: " ༻꧂" }, { p: "꧁༺", s: "༻꧂" }, { p: "꧁༺ • ", s: " • ༻꧂" }, { p: "꧁༺ ✦ ", s: " ✦ ༻꧂" }, { p: "꧁༺ ", s: " ࿐" }, { p: "࿐ ", s: " ༻꧂" },
+      { p: "♛ ", s: " ♛" }, { p: "♛", s: "♛" }, { p: "♛ • ", s: " • ♛" }, { p: "♛ ✦ ", s: " ✦ ♛" }, { p: "♛ ", s: " ࿐" }, { p: "࿐ ", s: " ♛" },
+      { p: "『VIP』 ", s: " ࿐" }, { p: "『VIP』", s: "࿐" }, { p: "『VIP』 • ", s: " • ࿐" }, { p: "『VIP』 ✦ ", s: " ✦ ࿐" }, { p: "࿐ ", s: " ࿐" },
+      { p: "彡 ", s: " 彡" }, { p: "彡", s: "彡" }, { p: "彡 • ", s: " • 彡" }, { p: "彡 ✦ ", s: " ✦ 彡" }, { p: "彡 ", s: " ࿐" }, { p: "࿐ ", s: " 彡" },
+      { p: "༒ ", s: " ༒" }, { p: "༒", s: "༒" }, { p: "༒ • ", s: " • ༒" }, { p: "༒ ✦ ", s: " ✦ ༒" }, { p: "༒ ", s: " ࿐" }, { p: "࿐ ", s: " ༒" },
+      { p: "⚜ ", s: " ⚜" }, { p: "⚜", s: "⚜" }, { p: "⚜ • ", s: " • ⚜" }, { p: "⚜ ✦ ", s: " ✦ ⚜" }, { p: "⚜ ", s: " ࿐" }, { p: "࿐ ", s: " ⚜" },
+      { p: "𓆩 ", s: " 𓆪" }, { p: "𓆩", s: "𓆪" }, { p: "𓆩 • ", s: " • 𓆪" }, { p: "𓆩 ✦ ", s: " ✦ 𓆪" }, { p: "𓆩 ", s: " ࿐" }, { p: "࿐ ", s: " 𓆪" },
+      { p: "♔ ", s: " ♔" }, { p: "♔ • ", s: " • ♔" }, { p: "♔ ✦ ", s: " ✦ ♔" }, { p: "★彡 ", s: " 彡★" }, { p: "◥ ", s: " ◤" }, { p: "乂 ", s: " 乂" }, { p: "么 ", s: " 么" },
+      { p: "【♛】 ", s: " 【♛】" }, { p: "♕ ", s: " ♕" }, { p: "༺ ", s: " ༻" }, { p: "👑✨ ", s: " ✨👑" }, { p: "💙 ", s: " 💙" }, { p: "🔱 ", s: " 🔱" },
+      { p: "🦚 ", s: " 🦚" }, { p: "🙏🌸 ", s: " 🌸🙏" }, { p: "🚩 ", s: " 🚩" }, { p: "🌺 ", s: " 🌺" }, { p: "💫 ", s: " 💫" }, { p: "🙏 ", s: " 🙏" },
+      { p: "🪷 ", s: " 🪷" }, { p: "🌼 ", s: " 🌼" }, { p: "✨ ", s: " ✨" }, { p: "☬ ", s: " ☬" }, { p: "❖ ", s: " ❖" }, { p: "♕༒ ", s: " ༒♕" }
+    ];
+
+    let activeShyamFilter = 'all';
+    let shyamLimit = 35;
+
+    function renderShyamDesigns() {
+      const search = (document.getElementById('shyam-search').value || '').toLowerCase().trim();
+      const container = document.getElementById('shyam-container');
+      container.innerHTML = '';
+
+      let list = [];
+      let counter = 1;
+
+      SHYAM_FONT_STYLES.forEach(font => {
+        if (activeShyamFilter === 'all' || font.name === activeShyamFilter) {
+          SHYAM_FRAMES.forEach(frame => {
+            const formatted = `${frame.p}${font.text}${frame.s}`;
+            if (!search || formatted.toLowerCase().includes(search) || font.name.toLowerCase().includes(search)) {
+              list.push({
+                id: String(counter).padStart(4, '0'),
+                font: font.name,
+                design: formatted
+              });
+            }
+            counter++;
+          });
+        }
+      });
+
+      const sliced = list.slice(0, shyamLimit);
+
+      if (sliced.length === 0) {
+        container.innerHTML = `<div class="p-4 bg-slate-900 border border-slate-800 rounded-xl text-center text-xs text-slate-400">कोई डिज़ाइन नहीं मिला। कीवर्ड बदलकर देखें!</div>`;
+        return;
+      }
+
+      sliced.forEach(item => {
+        const div = document.createElement('div');
+        div.className = "p-2.5 bg-slate-900 border border-slate-800 rounded-xl flex items-center justify-between gap-2 hover:border-amber-500/50 transition";
+        div.innerHTML = `
+          <div class="overflow-hidden">
+            <div class="flex items-center gap-2 mb-0.5">
+              <span class="text-[9px] font-bold text-amber-400">[${item.font}]</span>
+              <span class="text-[9px] text-slate-500 font-mono">#${item.id}</span>
+            </div>
+            <p class="text-sm text-slate-100 font-medium truncate select-all">${item.design}</p>
+          </div>
+          <button onclick="copyText('${escapeJs(item.design)}')" class="shrink-0 bg-slate-800 hover:bg-amber-600 text-slate-200 hover:text-white text-xs px-3 py-1.5 rounded-lg font-semibold transition">
+            <i class="fa-regular fa-copy"></i>
+          </button>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function filterShyam(cat) {
+      activeShyamFilter = cat;
+      shyamLimit = 35;
+      document.querySelectorAll('.shyam-cat-btn').forEach(b => {
+        if(b.getAttribute('onclick').includes(`'${cat}'`)) {
+          b.className = "shyam-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-amber-600 text-white font-semibold shadow-md";
+        } else {
+          b.className = "shyam-cat-btn whitespace-nowrap px-3.5 py-1.5 rounded-xl bg-slate-800 text-slate-300 font-semibold";
+        }
+      });
+      renderShyamDesigns();
+    }
+
+    function loadMoreShyam() {
+      shyamLimit += 40;
+      renderShyamDesigns();
+    }
+
+    // --- TAB SWITCHER ---
+    function switchTab(tabId) {
+      ['fonts', 'bio', 'captions', 'hashtags', 'shyam'].forEach(id => {
+        const sec = document.getElementById(`section-${id}`);
+        const btn = document.getElementById(`tab-btn-${id}`);
+        if(id === tabId) {
+          sec.classList.remove('hidden');
+          btn.className = "py-2.5 rounded-xl flex flex-col items-center justify-center gap-1 transition bg-gradient-to-r from-pink-600 to-rose-600 text-white shadow-md";
+        } else {
+          sec.classList.add('hidden');
+          btn.className = "py-2.5 rounded-xl flex flex-col items-center justify-center gap-1 transition text-slate-400 hover:text-white";
+        }
+      });
+      if(tabId === 'shyam') renderShyamDesigns();
+    }
+
+    // --- UTILITIES ---
+    function escapeJs(str) {
+      return str.replace(/\\/g, "\\\\").replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/\n/g, '\\n');
+    }
+
+    function copyText(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        showToast("Copied to clipboard! ✨");
+      }).catch(() => {
+        showToast("Failed to copy");
+      });
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      document.getElementById('toast-msg').innerText = msg;
+      toast.classList.remove('opacity-0', 'pointer-events-none');
+      setTimeout(() => {
+        toast.classList.add('opacity-0', 'pointer-events-none');
+      }, 2000);
+    }
+
+    // Startup
+    window.onload = () => {
+      generateFonts();
+      renderBios();
+      renderCaptions();
+      renderHashtags();
+    };
+  </script>
+</body>
+</html>
